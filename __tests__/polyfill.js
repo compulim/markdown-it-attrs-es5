@@ -1,7 +1,7 @@
 const markdownIt = require('markdown-it');
 
 test('Using bundle', async () => {
-  require('../dist/markdown-it-attrs.production.min');
+  require('../dist/markdown-it-attrs-es5.production.min');
 
   const md = markdownIt();
 
