@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script src="https://unpkg.com/core-js@2/client/core.min.js"></script>
+    <script src="https://unpkg.com/markdown-it@10.0.0/dist/markdown-it.min.js"></script>
+    <script src="../dist/markdown-it-attrs.production.min.js"></script>
+  </head>
+  <body>
+    <script>
+      const md = window.markdownit();
+
+      md.use(window.markdownItAttrs);
+
+      const result = md.render('[ABC](https://example.com){aria-label=DEF}');
+
+      console.group('The following two lines should be the same and working under IE11:');
+      console.log('<p><a href="https://example.com" aria-label="DEF">ABC</a></p>\n');
+      console.log(result);
+      console.groupEnd();
+    </script>
+  </body>
+</html>

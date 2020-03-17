@@ -1,0 +1,50 @@
+{
+  "name": "markdown-it-attrs-es5",
+  "version": "1.0.0-0",
+  "description": "",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "webpack-lib.config.js"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "postinstall": "webpack --config webpack-lib.config.js",
+    "prepublishOnly": "webpack --config webpack-dist.config.js",
+    "pretest": "npm run prepublishOnly",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compulim/markdown-it-attrs-es5.git"
+  },
+  "keywords": [
+    "es5",
+    "markdown",
+    "markdown-it",
+    "markdownit",
+    "markdown-it-attrs"
+  ],
+  "author": "William Wong <compulim@hotmail.com> (http://compulim.info/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compulim/markdown-it-attrs-es5/issues"
+  },
+  "homepage": "https://github.com/compulim/markdown-it-attrs-es5#readme",
+  "dependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "babel-loader": "^8",
+    "webpack": "^4",
+    "webpack-cli": "^3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "markdown-it": "^10.0.0",
+    "markdown-it-attrs": "^3.0.2",
+    "jest": "^25.1.0"
+  },
+  "peerDependencies": {
+    "markdown-it-attrs": "*"
+  }
+}
