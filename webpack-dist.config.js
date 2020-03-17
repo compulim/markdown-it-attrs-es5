@@ -2,7 +2,7 @@ const { join } = require('path');
 
 module.exports = {
   entry: {
-    'markdown-it-attrs.production.min': './src/polyfill.js'
+    'markdown-it-attrs-es5.production.min': './src/polyfill.js'
   },
   mode: 'production',
   module: {

@@ -19,7 +19,7 @@ npm install markdown-it-attrs markdown-it-attrs-es5
 You can also use it in HTML:
 
 ```html
-<script src="https://unpkg.com/markdown-it-attrs/dist/markdown-it-attrs-es5.production.min.js"></script>
+<script src="https://unpkg.com/markdown-it-attrs-es5/dist/markdown-it-attrs-es5.production.min.js"></script>
 ```
 
 ## How it works
