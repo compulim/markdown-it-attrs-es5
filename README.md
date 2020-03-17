@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/markdown-it-attrs-es5.svg)](https://www.npmjs.com/package/markdown-it-attrs-es5) [![Build Status](https://travis-ci.org/compulim/markdown-it-attrs-es5.svg?branch=master)](https://travis-ci.org/compulim/markdown-it-attrs-es5)
 
-This package is based on [`markdown-it-attrs`](https://npmjs.com/package/markdown-it-attrs). It did not contains an ES5 module. Importing the module directly or indirectly may break web apps running on ES5 browsers.
+This package is based on [`markdown-it-attrs`](https://npmjs.com/package/markdown-it-attrs). It did not expose an ES5 module. Importing the module directly or indirectly may break web apps running on ES5 browsers.
 
 On install, this package will transpile your version of `markdown-it-attrs` to make it compatible with ES5 browsers.
 
