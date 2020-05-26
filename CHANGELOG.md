@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-05-26
+
 ### Changed
 
 - Bump dependencies, in PR [#2](https://github.com/compulim/event-as-promise/pull/2)
