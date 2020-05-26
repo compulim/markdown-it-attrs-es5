@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Bump dependencies, in PR [#XXX](https://github.com/compulim/event-as-promise/pull/XXX)
+- Bump dependencies, in PR [#2](https://github.com/compulim/event-as-promise/pull/2)
    - [`@babel/core@7.9.6`](https://npmjs.com/package/@babel/core)
    - [`@babel/preset-env@7.9.6`](https://npmjs.com/package/@babel/preset-env)
    - [`babel-loader@8.1.0`](https://npmjs.com/package/babel-loader)
