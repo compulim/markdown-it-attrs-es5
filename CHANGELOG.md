@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Bump dependencies, in PR [#XXX](https://github.com/compulim/event-as-promise/pull/XXX)
+   - [`@babel/core@7.9.6`](https://npmjs.com/package/@babel/core)
+   - [`@babel/preset-env@7.9.6`](https://npmjs.com/package/@babel/preset-env)
+   - [`babel-loader@8.1.0`](https://npmjs.com/package/babel-loader)
+   - [`jest@26.0.1`](https://npmjs.com/package/jest)
+   - [`markdown-it-attrs@3.0.2`](https://npmjs.com/package/markdown-it-attrs)
+   - [`markdown-it@11.0.0`](https://npmjs.com/package/markdown-it)
+   - [`webpack-cli@3.3.1`](https://npmjs.com/package/webpack-cli)
+   - [`webpack@4.43.0`](https://npmjs.com/package/webpack)
+
 ## [1.0.0] - 2020-03-17
 
 ### Added
