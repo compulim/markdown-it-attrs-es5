@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Moved to [`esbuild`](https://npmjs.com/package/esbuild) from Webpack, in PR [#18](https://github.com/compulim/markdown-it-attrs-es5/pull/18)
+
 ## [1.2.1] - 2021-07-13
 
 ### Changed
@@ -14,11 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
    - [`@babel/core@7.14.6`](https://npmjs.com/package/@babel/core)
    - [`@babel/preset-env@7.14.7`](https://npmjs.com/package/@babel/preset-env)
    - [`babel-loader@8.2.2`](https://npmjs.com/package/babel-loader)
-   - [`webpack@4.46.0`](https://npmjs.com/package/webpack)
-   - [`webpack-cli@4.7.2`](https://npmjs.com/package/webpack-cli)
    - [`jest@27.0.6`](https://npmjs.com/package/jest)
-   - [`markdown-it@12.1.0`](https://npmjs.com/package/markdown-it)
    - [`markdown-it-attrs@4.0.0`](https://npmjs.com/package/markdown-it-attrs)
+   - [`markdown-it@12.1.0`](https://npmjs.com/package/markdown-it)
+   - [`webpack-cli@4.7.2`](https://npmjs.com/package/webpack-cli)
+   - [`webpack@4.46.0`](https://npmjs.com/package/webpack)
 
 ## [1.2.0] - 2020-08-06
 
