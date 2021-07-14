@@ -1,4 +1,8 @@
-const markdownIt = require('markdown-it');
+/**
+ * @jest-environment jsdom
+ */
+
+ const markdownIt = require('markdown-it');
 
 test('Using bundle', async () => {
   require('../dist/markdown-it-attrs-es5.production.min');
