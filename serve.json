@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "destination": "dist/markdown-it-attrs-es5.production.min.js",
+      "source": "/markdown-it-attrs-es5.production.min.js"
+    },
+    {
+      "destination": "public/index.html",
+      "source": "/"
+    }
+  ]
+}
