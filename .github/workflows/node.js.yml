@@ -93,7 +93,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          ren markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
+          mv markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
           npm install
 
       - name: Build tests
