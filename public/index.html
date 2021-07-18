@@ -3,25 +3,23 @@
   <head>
     <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
     <script src="../dist/markdown-it-attrs-es5.production.min.js"></script>
+    <style type="text/css">
+      pre {
+        border: solid 1px #ccc;
+        border-radius: 4px;
+        padding: 0.4em;
+      }
+    </style>
   </head>
   <body>
+    <pre class="markdown"></pre>
+    <div>Would become</div>
+    <pre class="html"></pre>
     <script>
-      const md = window.markdownit();
-
-      md.use(window.markdownItAttrs);
-
       const MARKDOWN = '[ABC](https://example.com){aria-label=DEF}';
 
-      const markdown = document.createElement('pre');
-
-      markdown.textContent = MARKDOWN;
-
-      const html = document.createElement('pre');
-
-      html.textContent = md.render(MARKDOWN);
-
-      document.body.appendChild(markdown);
-      document.body.appendChild(html);
+      document.querySelector('.markdown').textContent = MARKDOWN;
+      document.querySelector('.html').textContent = window.markdownit().use(window.markdownItAttrs).render(MARKDOWN);
     </script>
   </body>
 </html>
