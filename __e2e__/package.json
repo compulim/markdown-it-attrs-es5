@@ -2,6 +2,7 @@
   "dependencies": {
     "esbuild": "*",
     "jest": "*",
+    "markdown-it": "*",
     "markdown-it-attrs": "*",
     "markdown-it-attrs-es5": "file:markdown-it-attrs-es5.tgz",
     "webpack": "*",
