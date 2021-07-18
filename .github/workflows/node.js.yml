@@ -84,6 +84,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Use NPM@7
+        if: ${{ matrix.node-version == '16.x' }}
         run: npm i -g npm@7 --registry=https://registry.npmjs.org
 
       - uses: actions/download-artifact@v2
@@ -97,7 +98,7 @@ jobs:
       - name: Install dependencies
         run: |
           mv markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
-          npm install
+          npm install esbuild jest markdown-it markdown-it-attrs ./markdown-it-attrs-es5.tgz webpack webpack-cli
 
       - name: Build tests
         run: npm run build
@@ -120,6 +121,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Use NPM@7
+        if: ${{ matrix.node-version == '16.x' }}
         run: npm i -g npm@7 --registry=https://registry.npmjs.org
 
       - uses: actions/download-artifact@v2
@@ -133,7 +135,7 @@ jobs:
       - name: Install dependencies
         run: |
           ren markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
-          npm install
+          npm install esbuild jest markdown-it markdown-it-attrs ./markdown-it-attrs-es5.tgz webpack webpack-cli
 
       - name: Build tests
         run: npm run build
