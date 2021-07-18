@@ -1,4 +1,12 @@
 {
+  "dependencies": {
+    "esbuild": "*",
+    "jest": "*",
+    "markdown-it-attrs": "*",
+    "markdown-it-attrs-es5": "file:markdown-it-attrs-es5.tgz",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
   "scripts": {
     "build": "npm run build:esbuild:commonjs && npm run build:esbuild:esm && npm run build:webpack:commonjs && npm run build:webpack:esm",
     "build:esbuild:commonjs": "esbuild ./web.js --bundle --format=cjs --outfile=./dist/main.esbuild-commonjs.js",
