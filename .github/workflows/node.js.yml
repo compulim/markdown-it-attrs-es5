@@ -98,7 +98,8 @@ jobs:
       - name: Install dependencies
         run: |
           mv markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
-          npm install esbuild jest markdown-it markdown-it-attrs ./markdown-it-attrs-es5.tgz webpack webpack-cli
+          npm install esbuild jest markdown-it markdown-it-attrs webpack webpack-cli
+          npm install ./markdown-it-attrs-es5.tgz
 
       - name: Build tests
         run: npm run build
@@ -135,7 +136,8 @@ jobs:
       - name: Install dependencies
         run: |
           ren markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
-          npm install esbuild jest markdown-it markdown-it-attrs ./markdown-it-attrs-es5.tgz webpack webpack-cli
+          npm install esbuild jest markdown-it markdown-it-attrs webpack webpack-cli
+          npm install ./markdown-it-attrs-es5.tgz
 
       - name: Build tests
         run: npm run build
