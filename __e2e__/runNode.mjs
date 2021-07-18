@@ -1,5 +1,5 @@
 import markdownIt from 'markdown-it';
-import markdownItAttrs from 'markdown-it-attrs-es5/lib/esm/index.mjs';
+import markdownItAttrs from 'markdown-it-attrs-es5';
 
 const md = markdownIt();
 

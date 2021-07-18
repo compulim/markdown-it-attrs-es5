@@ -14,6 +14,15 @@
   ],
   "main": "lib/index.js",
   "module": "lib/esm/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./lib/esm/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./dist/markdown-it-attrs-es5.production.min.js": {
+      "default": "./dist/markdown-it-attrs-es5.production.min.js"
+    }
+  },
   "scripts": {
     "postinstall:commonjs": "node ./scripts/esbuild.mjs markdown-it-attrs ./src/index.js cjs ./lib/index.bundled.js && babel ./lib/index.bundled.js --config-file ./babel.config.commonjs.json --out-file ./lib/index.js",
     "postinstall:esm": "node ./scripts/esbuild.mjs markdown-it-attrs ./src/index.mjs esm lib/esm/index.bundled.mjs && babel ./lib/esm/index.bundled.mjs --config-file ./babel.config.esm.json --out-file ./lib/esm/index.mjs",
