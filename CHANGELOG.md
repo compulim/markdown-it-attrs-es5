@@ -6,9 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added ES Module entrypoint, in PR [#19](https://github.com/compulim/p-defer-es5/pull/19)
+
 ### Changed
 
 - Moved to [`esbuild`](https://npmjs.com/package/esbuild) from Webpack, in PR [#18](https://github.com/compulim/markdown-it-attrs-es5/pull/18)
+- Move to end-to-end tests from unit tests, in PR [#19](https://github.com/compulim/p-defer-es5/pull/19)
+- Ponyfill `globalThis` and `Promise` via `core-js-pure` by usage, in PR [#19](https://github.com/compulim/p-defer-es5/pull/19)
 
 ## [1.2.1] - 2021-07-13
 

@@ -1,6 +1,6 @@
-import markdownIt from 'markdown-it';
+require('markdown-it-attrs-es5/dist/markdown-it-attrs-es5.production.min.js');
 
-import markdownItAttrs from '../lib/esm/index.mjs';
+const markdownIt = require('markdown-it');
 
 const md = markdownIt();
 
