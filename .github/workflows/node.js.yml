@@ -101,9 +101,6 @@ jobs:
           mv markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
           npm install
 
-      - name: Build tests
-        run: npm run build
-
       - name: Run tests
         run: npm test
 
@@ -138,9 +135,6 @@ jobs:
         run: |
           ren markdown-it-attrs-es5-*.tgz markdown-it-attrs-es5.tgz
           npm install
-
-      - name: Build tests
-        run: npm run build
 
       - name: Run tests
         run: npm test
