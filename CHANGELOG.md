@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
    - [`@babel/runtime-corejs3@7.15.4`](https://npmjs.com/package/@babel/runtime-corejs3)
    - [`esbuild@0.13.6`](https://npmjs.com/package/esbuild)
    - [`read-pkg-up@9.0.0`](https://npmjs.com/package/read-pkg-up)
-   - [`terser@5.9.0`](https://npmjs.com/package/terser)z
+   - [`terser@5.9.0`](https://npmjs.com/package/terser)
 
 ## [2.0.0] - 2021-07-20
 
