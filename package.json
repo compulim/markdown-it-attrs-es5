@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-attrs-es5",
-  "version": "2.0.1",
+  "version": "2.0.2-0",
   "description": "",
   "engines": {
     "node": ">= 12.2.0"
