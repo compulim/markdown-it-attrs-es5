@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Bumped dependencies in PR [#22](https://github.com/compulim/markdown-it-attrs-es5/pull/22)
+   - [`@babel/cli@7.15.7`](https://npmjs.com/package/@babel/cli)
+   - [`@babel/core@7.15.8`](https://npmjs.com/package/@babel/core)
+   - [`@babel/plugin-transform-runtime@7.15.8`](https://npmjs.com/package/@babel/plugin-transform-runtime)
+   - [`@babel/preset-env@7.15.8`](https://npmjs.com/package/@babel/preset-env)
+   - [`@babel/runtime-corejs3@7.15.4`](https://npmjs.com/package/@babel/runtime-corejs3)
+   - [`esbuild@0.13.6`](https://npmjs.com/package/esbuild)
+   - [`read-pkg-up@9.0.0`](https://npmjs.com/package/read-pkg-up)
+   - [`terser@5.9.0`](https://npmjs.com/package/terser)
+
 ## [2.0.0] - 2021-07-20
 
 ### Added
