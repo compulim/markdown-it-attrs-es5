@@ -16,10 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
    - [`@babel/preset-env@7.16.11`](https://npmjs.com/package/@babel/preset-env)
    - [`@babel/runtime-corejs3@7.17.2`](https://npmjs.com/package/@babel/runtime-corejs3)
    - [`esbuild@0.14.23`](https://npmjs.com/package/esbuild)
+   - [`markdown-it-attrs@4.1.3`](https://npmjs.com/package/markdown-it-attrs)
+   - [`markdown-it@12.3.2`](https://npmjs.com/package/markdown-it)
    - [`read-pkg-up@9.1.0`](https://npmjs.com/package/read-pkg-up)
    - [`terser@5.11.0`](https://npmjs.com/package/terser)
-   - [`markdown-it@12.3.2`](https://npmjs.com/package/markdown-it)
-   - [`markdown-it-attrs@4.1.3`](https://npmjs.com/package/markdown-it-attrs)
 
 ## [2.0.1] - 2021-10-14
 
