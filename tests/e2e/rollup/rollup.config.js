@@ -1,5 +1,6 @@
-import resolve from '@rollup/plugin-node-resolve';
 import commonJS from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
+import resolve from '@rollup/plugin-node-resolve';
 
 export default {
   input: 'index.js',
@@ -7,5 +8,5 @@ export default {
     file: 'dist/main.js',
     format: 'iife'
   },
-  plugins: [resolve(), commonJS()]
+  plugins: [resolve(), commonJS(), json()]
 };

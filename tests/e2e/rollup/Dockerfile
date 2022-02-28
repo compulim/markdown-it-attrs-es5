@@ -12,7 +12,10 @@ RUN node --version
 RUN npm --version
 
 RUN npm init --yes
-RUN npm install @rollup/plugin-commonjs @rollup/plugin-node-resolve markdown-it markdown-it-attrs rollup
+
+# `markdown-it` requires `punycode` but it was not in its bundle as Node.js deprecated it.
+RUN npm install @rollup/plugin-commonjs @rollup/plugin-node-resolve markdown-it markdown-it-attrs punycode rollup
+
 RUN npm install ./`ls markdown-it-attrs-es5-*.tgz`
 RUN npx --no-install rollup --config
 

@@ -12,7 +12,10 @@ RUN node --version
 RUN npm --version
 
 RUN npm init --yes
-RUN npm install markdown-it markdown-it-attrs
+
+# `markdown-it` requires `punycode` but it was not in its bundle as Node.js deprecated it.
+RUN npm install markdown-it markdown-it-attrs punycode
+
 RUN npm install ./`ls markdown-it-attrs-es5-*.tgz`
 
 # The lowest version supported by ESBuild is "es2016".

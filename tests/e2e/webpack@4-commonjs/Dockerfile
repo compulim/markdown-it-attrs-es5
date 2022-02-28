@@ -14,7 +14,7 @@ RUN npm --version
 RUN npm init --yes
 RUN npm install markdown-it markdown-it-attrs
 RUN npm install ./`ls markdown-it-attrs-es5-*.tgz`
-RUN npx -p webpack@5 -p webpack-cli webpack-cli
+RUN npx -p webpack@4 -p webpack-cli webpack-cli
 
 # As we already bundled everything, the bundle should not need to load anything from /node_modules/.
 RUN rm -r node_modules
