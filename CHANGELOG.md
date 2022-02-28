@@ -6,6 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Updated end-to-end tests, by [@compulim](https://github.com/compulim), in PR [#25](https://github.com/compulim/markdown-it-attrs-es5/pull/25)
+   - Using Docker to isolate tests
+   - Test against different combinations of Node.js, NPM, and resolvers
+- Bumped dependencies, by [@compulim](https://github.com/compulim), in PR [#25](https://github.com/compulim/markdown-it-attrs-es5/pull/25)
+   - [`@babel/cli@7.17.6`](https://npmjs.com/package/@babel/cli)
+   - [`@babel/core@7.17.5`](https://npmjs.com/package/@babel/core)
+   - [`@babel/plugin-transform-runtime@7.17.0`](https://npmjs.com/package/@babel/plugin-transform-runtime)
+   - [`@babel/preset-env@7.16.11`](https://npmjs.com/package/@babel/preset-env)
+   - [`@babel/runtime-corejs3@7.17.2`](https://npmjs.com/package/@babel/runtime-corejs3)
+   - [`esbuild@0.14.23`](https://npmjs.com/package/esbuild)
+   - [`read-pkg-up@9.1.0`](https://npmjs.com/package/read-pkg-up)
+   - [`terser@5.11.0`](https://npmjs.com/package/terser)
+   - [`markdown-it@12.3.2`](https://npmjs.com/package/markdown-it)
+   - [`markdown-it-attrs@4.1.3`](https://npmjs.com/package/markdown-it-attrs)
+
 ## [2.0.1] - 2021-10-14
 
 ### Changed
@@ -24,13 +39,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Added ES Module entrypoint, in PR [#19](https://github.com/compulim/p-defer-es5/pull/19)
+- Added ES Module entrypoint, in PR [#19](https://github.com/compulim/markdown-it-attrs-es5/pull/19)
 
 ### Changed
 
 - Moved to [`esbuild`](https://npmjs.com/package/esbuild) from Webpack, in PR [#18](https://github.com/compulim/markdown-it-attrs-es5/pull/18)
-- Move to end-to-end tests from unit tests, in PR [#19](https://github.com/compulim/p-defer-es5/pull/19)
-- Ponyfill `globalThis` and `Promise` via `core-js-pure` by usage, in PR [#19](https://github.com/compulim/p-defer-es5/pull/19)
+- Move to end-to-end tests from unit tests, in PR [#19](https://github.com/compulim/markdown-it-attrs-es5/pull/19)
+- Ponyfill `globalThis` and `Promise` via `core-js-pure` by usage, in PR [#19](https://github.com/compulim/markdown-it-attrs-es5/pull/19)
 
 ## [1.2.1] - 2021-07-13
 
