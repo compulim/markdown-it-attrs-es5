@@ -1,5 +1,6 @@
 import commonJS from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
+import nodePolyfills from 'rollup-plugin-polyfill-node';
 import resolve from '@rollup/plugin-node-resolve';
 
 export default {
@@ -8,5 +9,5 @@ export default {
     file: 'dist/main.js',
     format: 'iife'
   },
-  plugins: [resolve(), commonJS(), json()]
+  plugins: [nodePolyfills({ include: 'punycode' }), resolve(), commonJS(), json()]
 };
