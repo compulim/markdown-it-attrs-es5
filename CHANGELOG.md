@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.2] - 2022-02-28
+
 - Updated end-to-end tests, by [@compulim](https://github.com/compulim), in PR [#25](https://github.com/compulim/markdown-it-attrs-es5/pull/25)
    - Using Docker to isolate tests
    - Test against different combinations of Node.js, NPM, and resolvers
