@@ -1,9 +1,27 @@
+## Summary
+
+<!-- Explain the purpose of this pull request in one line. -->
+
 ## Changelog
 
-> Please copy and paste new entries from `CHANGELOG.md` here.
+### Fixed/Added/Changed
+
+<!-- Copy and paste the entry from CHANGELOG.md. -->
+
+## Design considerations
+
+<!-- Explains how we come up with the final design and design candidates (if any). -->
 
 ## Specific changes
 
-> Please list each individual specific change in this pull request.
+<!-- Explains what changed in details. -->
 
 - 
+
+## Reminders
+
+<!-- Checks all boxes even if it is irrelevant to this pull request. -->
+
+- [ ] I have updated `CHANGELOG.md`
+- [ ] I have added tests for new code
+- [ ] I have updated documentations

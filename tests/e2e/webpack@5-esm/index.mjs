@@ -8,11 +8,11 @@
 // - If we "require", the default imported object is { default: () => any }.
 // - If we "require" and "mainFields" is "main", the default imported object is () => any.
 
-const markdownIt = require('markdown-it');
-const markdownItAttrs = require('markdown-it-attrs-es5');
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs-es5';
 
 const md = markdownIt();
 
 md.use(markdownItAttrs);
 
-process.send(md.render('[ABC](https://example.com){aria-label=DEF}'));
+console.log(md.render('[ABC](https://example.com){aria-label=DEF}'));
